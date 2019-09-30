@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Buid'){
+    stage('Build'){
       steps{
         echo 'runing build automation'
         sh './gradlew buid --no-deamon'
